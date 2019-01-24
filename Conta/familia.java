@@ -12,6 +12,8 @@ public class familia {
 		int indice=0;
 		int opc=0;
 		int soma=0;
+		int valor=0;
+		int total=0;
 		while(true) {
 			while ((opc>=0) && (opc<3)) {
 				System.out.println("+---------------------------------+");
@@ -35,6 +37,9 @@ public class familia {
 					break;
 				}
 				case 2:{
+					total+=valor;
+				}
+				case 3:{
 					relatorioFamilias(f);
 					break;
 				}
